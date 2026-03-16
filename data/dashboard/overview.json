@@ -8,22 +8,46 @@
     {
       "label": "Active businesses",
       "value": "01",
-      "change": "+1 foundation"
+      "change": "+1 flagship"
     },
     {
       "label": "Open jobs",
       "value": "07",
-      "change": "Prioritised"
+      "change": "Across 4 lanes"
     },
     {
       "label": "Agent readiness",
-      "value": "82%",
+      "value": "86%",
       "change": "4 core agents online"
     },
     {
-      "label": "Signal velocity",
-      "value": "14/wk",
-      "change": "+6 strong leads target"
+      "label": "Pipeline target",
+      "value": "6 calls / wk",
+      "change": "Premium lead objective"
     }
-  ]
+  ],
+  "commandCenter": {
+    "headline": "Run the business like an operating system, not a scattered project.",
+    "body": "The dashboard is the command surface for offer clarity, pipeline movement, delegation, memory continuity, and execution quality.",
+    "directives": [
+      "Protect premium positioning over generic AI service noise.",
+      "Turn each build sprint into a sellable asset, proof point, or operating advantage.",
+      "Route work through agents with explicit ownership and next outputs.",
+      "Reduce founder-memory dependency by logging sessions, decisions, and reusable systems."
+    ],
+    "decisionPanel": [
+      {
+        "label": "Current sprint thesis",
+        "value": "Sharpen offer + tighten operating system + increase pipeline visibility"
+      },
+      {
+        "label": "Primary risk",
+        "value": "Strong brand shell without enough recurring acquisition and offer proof"
+      },
+      {
+        "label": "Next commercial milestone",
+        "value": "Consistent booked strategy calls from inbound + outbound motion"
+      }
+    ]
+  }
 }

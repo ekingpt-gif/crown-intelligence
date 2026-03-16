@@ -7,7 +7,25 @@
   },
   "notes": [
     "Long-term memory scaffold is intentionally minimal.",
-    "Daily session notes can accumulate in memory/YYYY-MM-DD.md later.",
-    "Dashboard data is stored locally in JSON for easy iteration."
+    "Daily session notes should accumulate in memory/YYYY-MM-DD.md.",
+    "Dashboard data is stored locally in JSON for fast iteration and safe edits."
+  ],
+  "checks": [
+    {
+      "label": "MEMORY.md",
+      "path": "/Users/eking/.openclaw/workspace/MEMORY.md"
+    },
+    {
+      "label": "memory/ directory",
+      "path": "/Users/eking/.openclaw/workspace/memory"
+    },
+    {
+      "label": "Today note",
+      "path": "/Users/eking/.openclaw/workspace/memory/2026-03-16.md"
+    },
+    {
+      "label": "Yesterday note",
+      "path": "/Users/eking/.openclaw/workspace/memory/2026-03-15.md"
+    }
   ]
 }

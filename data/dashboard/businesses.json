@@ -6,6 +6,8 @@
     "stage": "Operating / launch buildout",
     "priority": "Primary business",
     "owner": "Edward",
+    "currentMandate": "Build the brand, install the operating system, and convert strategic attention into booked calls and retained client work.",
+    "stageSummary": "Crown Intelligence is past pure concept stage and now assembling the assets, offers, and operating rhythm required for a repeatable premium consulting business.",
     "focus": [
       "Brand authority and premium positioning",
       "AI consulting offers and strategic retainers",
@@ -18,6 +20,60 @@
       "Monthly retainers",
       "Digital assets and playbooks"
     ],
-    "currentMandate": "Build the brand, install the operating system, and convert strategic attention into booked calls and retained client work."
+    "priorities": [
+      "Lock a simple premium offer stack with clear outcomes and pricing logic",
+      "Build enough proof, assets, and diagnostics to make calls easier to convert",
+      "Stand up acquisition systems that do not rely on ad-hoc founder energy"
+    ],
+    "bottlenecks": [
+      "Offer language still stronger than proof density",
+      "Lead generation rhythm not fully systemised yet",
+      "Internal ops visibility improving but not yet complete"
+    ],
+    "assets": [
+      "Premium landing page",
+      "Internal dashboard / command surface",
+      "OpenClaw guide lead magnet path",
+      "Brand positioning and service stack"
+    ],
+    "offers": [
+      {
+        "name": "AI Strategy Call",
+        "status": "Live",
+        "detail": "Paid or high-intent diagnostic session focused on bottlenecks, leverage, and deployment path."
+      },
+      {
+        "name": "OpenClaw Deployment",
+        "status": "Packaging",
+        "detail": "Hands-on implementation and systems setup for operators who need buildout, not just advice."
+      },
+      {
+        "name": "Strategic Retainer",
+        "status": "Structuring",
+        "detail": "Ongoing operator-level advisory and system refinement for businesses building long-term leverage."
+      }
+    ],
+    "progressMarkers": [
+      {
+        "label": "Brand foundation",
+        "value": "Complete",
+        "tone": "good"
+      },
+      {
+        "label": "Offer clarity",
+        "value": "Advancing",
+        "tone": "warn"
+      },
+      {
+        "label": "Pipeline engine",
+        "value": "Installing",
+        "tone": "warn"
+      },
+      {
+        "label": "Ops infrastructure",
+        "value": "Online",
+        "tone": "good"
+      }
+    ]
   }
 ]

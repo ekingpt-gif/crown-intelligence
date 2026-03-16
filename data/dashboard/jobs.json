@@ -5,7 +5,10 @@
     "domain": "Strategy",
     "priority": "Critical",
     "status": "In progress",
-    "owner": "Operator / CEO Agent"
+    "lane": "Now",
+    "owner": "Operator / CEO Agent",
+    "summary": "Simplify services into a clearer paid diagnostic, implementation path, and retainer upgrade logic.",
+    "nextOutput": "Finalised offer architecture and pricing narrative"
   },
   {
     "id": "job-02",
@@ -13,7 +16,10 @@
     "domain": "Growth",
     "priority": "High",
     "status": "Queued",
-    "owner": "Growth Architect"
+    "lane": "Next",
+    "owner": "Growth Architect",
+    "summary": "Add supporting proof and conversion assets that make the premium positioning easier to trust.",
+    "nextOutput": "Sales-support sections and CTA asset pack"
   },
   {
     "id": "job-03",
@@ -21,7 +27,10 @@
     "domain": "Systems",
     "priority": "High",
     "status": "In progress",
-    "owner": "Systems Director"
+    "lane": "Now",
+    "owner": "Systems Director",
+    "summary": "Capture guide and call interest reliably, then route it into follow-up and reporting flows.",
+    "nextOutput": "Working lead intake and routing logic"
   },
   {
     "id": "job-04",
@@ -29,7 +38,10 @@
     "domain": "Pipeline",
     "priority": "High",
     "status": "Queued",
-    "owner": "Revenue Commander"
+    "lane": "Next",
+    "owner": "Revenue Commander",
+    "summary": "Create a founder-compatible outbound motion for premium leads without spamming or diluting the brand.",
+    "nextOutput": "Prospecting framework and weekly send cadence"
   },
   {
     "id": "job-05",
@@ -37,7 +49,10 @@
     "domain": "Content",
     "priority": "Medium",
     "status": "Ready",
-    "owner": "Signal & Content Chief"
+    "lane": "Ready",
+    "owner": "Signal & Content Chief",
+    "summary": "Build a repeatable content system that supports authority, demand generation, and sales conversations.",
+    "nextOutput": "30-day editorial and distribution plan"
   },
   {
     "id": "job-06",
@@ -45,7 +60,10 @@
     "domain": "Operations",
     "priority": "Medium",
     "status": "Ready",
-    "owner": "Operator / CEO Agent"
+    "lane": "Ready",
+    "owner": "Operator / CEO Agent",
+    "summary": "Set the cadence for weekly business review, agent review, and decision logging.",
+    "nextOutput": "Ops review cadence and KPI checklist"
   },
   {
     "id": "job-07",
@@ -53,6 +71,9 @@
     "domain": "Memory",
     "priority": "Medium",
     "status": "Started",
-    "owner": "Systems Director"
+    "lane": "Blocked",
+    "owner": "Systems Director",
+    "summary": "Confirm MEMORY.md and daily note scaffolding so work compounds across sessions safely.",
+    "nextOutput": "Memory checklist visible in dashboard"
   }
 ]

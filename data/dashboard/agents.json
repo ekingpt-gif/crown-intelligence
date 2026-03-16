@@ -4,25 +4,38 @@
     "name": "Operator / CEO Agent",
     "role": "Business operator and executive command layer for Crown Intelligence",
     "status": "Primary command",
+    "ownership": "Business model, priorities, offer decisions, executive approvals",
+    "cadence": "Daily command review + weekly operating reset",
+    "currentMandate": "Run Crown Intelligence like a premium advisory and systems business: sharpen the offer, increase signal quality, and turn execution into revenue-producing assets.",
     "responsibilities": [
       "Set weekly priorities and operating focus",
       "Own commercial decisions, positioning, and offer design",
       "Allocate work across specialist agents",
       "Review KPIs, unblock bottlenecks, and protect execution quality"
     ],
-    "currentMandate": "Run Crown Intelligence like a premium advisory and systems business: sharpen the offer, increase signal quality, and turn execution into revenue-producing assets.",
+    "taskOwnership": [
+      "Offer stack and pricing",
+      "Weekly operating plan",
+      "Agent task delegation",
+      "Executive review and final approval"
+    ],
+    "outputs": [
+      "Weekly command brief",
+      "Offer decisions",
+      "Priority stack",
+      "Decision log entries"
+    ],
+    "dependencies": [
+      "Funnel visibility",
+      "Agent reporting quality",
+      "Market feedback loops"
+    ],
     "kpis": [
       "Booked strategy calls per week",
       "Qualified leads generated",
       "Proposal-to-close conversion rate",
       "Weekly strategic output shipped",
       "Average turnaround time on priority decisions"
-    ],
-    "taskOwnership": [
-      "Offer stack and pricing",
-      "Weekly operating plan",
-      "Agent task delegation",
-      "Executive review and final approval"
     ]
   },
   {
@@ -30,24 +43,37 @@
     "name": "Growth Architect",
     "role": "Demand generation and funnel design",
     "status": "Active",
+    "ownership": "Acquisition systems, CRO, campaign framing, CTA infrastructure",
+    "cadence": "Twice-weekly funnel iteration cycle",
+    "currentMandate": "Increase qualified inbound interest while keeping the brand premium.",
     "responsibilities": [
       "Build and optimise acquisition funnels",
       "Design calls-to-action and lead magnets",
       "Improve landing page conversion",
       "Track campaign performance"
     ],
-    "currentMandate": "Increase qualified inbound interest while keeping the brand premium.",
-    "kpis": [
-      "Landing page conversion rate",
-      "Cost per qualified lead",
-      "Lead magnet opt-ins",
-      "Call booking rate"
-    ],
     "taskOwnership": [
       "Funnels",
       "Lead capture",
       "CRO tests",
       "Campaign briefs"
+    ],
+    "outputs": [
+      "Landing assets",
+      "Offer hooks",
+      "Conversion experiments",
+      "Lead flow reporting"
+    ],
+    "dependencies": [
+      "Offer clarity from CEO Agent",
+      "Proof assets from content",
+      "Routing support from systems"
+    ],
+    "kpis": [
+      "Landing page conversion rate",
+      "Cost per qualified lead",
+      "Lead magnet opt-ins",
+      "Call booking rate"
     ]
   },
   {
@@ -55,24 +81,37 @@
     "name": "Systems Director",
     "role": "Automation, ops infrastructure, and knowledge systems",
     "status": "Active",
+    "ownership": "Automation stack, data integrity, reporting, memory infrastructure",
+    "cadence": "Continuous ops upkeep + end-of-day system sync",
+    "currentMandate": "Make operations calmer, trackable, and less dependent on founder memory.",
     "responsibilities": [
       "Build workflows and routing systems",
       "Maintain dashboard data integrity",
       "Create reusable operating SOPs",
       "Improve memory and reporting hygiene"
     ],
-    "currentMandate": "Make operations calmer, trackable, and less dependent on founder memory.",
-    "kpis": [
-      "Automations deployed",
-      "Hours saved per week",
-      "Workflow reliability",
-      "Data freshness"
-    ],
     "taskOwnership": [
       "Automation stack",
       "Internal dashboard",
       "Knowledge base",
       "Operational reporting"
+    ],
+    "outputs": [
+      "Dashboards",
+      "Routing flows",
+      "SOPs",
+      "Memory/session scaffolding"
+    ],
+    "dependencies": [
+      "Stable source data",
+      "Workspace conventions",
+      "Regular session logging"
+    ],
+    "kpis": [
+      "Automations deployed",
+      "Hours saved per week",
+      "Workflow reliability",
+      "Data freshness"
     ]
   },
   {
@@ -80,24 +119,37 @@
     "name": "Signal & Content Chief",
     "role": "Authority building, market signal capture, and messaging",
     "status": "Active",
+    "ownership": "Content system, messaging library, signal capture, proof framing",
+    "cadence": "Weekly editorial cycle + ongoing market scan",
+    "currentMandate": "Strengthen attention, authority, and trust around Crown Intelligence.",
     "responsibilities": [
       "Generate founder-led content ideas",
       "Translate strategy into persuasive messaging",
       "Monitor market signals and opportunities",
       "Create content systems that support sales"
     ],
-    "currentMandate": "Strengthen attention, authority, and trust around Crown Intelligence.",
-    "kpis": [
-      "Content shipped per week",
-      "Engagement from target buyers",
-      "Signal insights captured",
-      "Sales enablement assets produced"
-    ],
     "taskOwnership": [
       "Content calendar",
       "Messaging library",
       "Research notes",
       "Thought leadership assets"
+    ],
+    "outputs": [
+      "Authority posts",
+      "Message angles",
+      "Proof snippets",
+      "Sales-support content"
+    ],
+    "dependencies": [
+      "Strategic priorities from CEO Agent",
+      "Offer positioning",
+      "Distribution channels"
+    ],
+    "kpis": [
+      "Content shipped per week",
+      "Engagement from target buyers",
+      "Signal insights captured",
+      "Sales enablement assets produced"
     ]
   }
 ]

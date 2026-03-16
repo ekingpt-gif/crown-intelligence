@@ -278,13 +278,13 @@ footer{padding:38px 0 48px;border-top:1px solid rgba(255,255,255,.06);color:var(
 /* Dashboard */
 .kingdom-dashboard{position:relative;z-index:1;padding:32px 0 88px}
 .kingdom-shell{width:min(calc(100% - 40px), 1360px);margin:0 auto 28px;position:relative;z-index:1}
-.kingdom-hero-shell,.kingdom-side-card,.kingdom-business-card,.kingdom-agent-card,.kingdom-activity-item,.kingdom-job-table,.kingdom-command-card{border:1px solid rgba(255,255,255,.08);background:linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.012));box-shadow:var(--shadow), inset 0 1px 0 rgba(255,255,255,.04)}
+.kingdom-hero-shell,.kingdom-side-card,.kingdom-business-card,.kingdom-agent-card,.kingdom-activity-item,.kingdom-command-card,.kingdom-lane-card,.kingdom-job-card{border:1px solid rgba(255,255,255,.08);background:linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.012));box-shadow:var(--shadow), inset 0 1px 0 rgba(255,255,255,.04)}
 .kingdom-hero-shell{padding:28px;border-radius:34px;overflow:hidden;background:radial-gradient(circle at top right, rgba(179,32,32,.16), transparent 24%),linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.012))}
 .kingdom-topbar{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:34px}
 .kingdom-brand{max-width:100%}
 .kingdom-backlink{min-height:48px}
 .kingdom-hero-grid{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(360px,.92fr);gap:22px;align-items:stretch}
-.kingdom-hero-copy,.kingdom-command-card,.kingdom-side-card,.kingdom-business-card,.kingdom-agent-card,.kingdom-job-table{padding:28px;border-radius:28px}
+.kingdom-hero-copy,.kingdom-command-card,.kingdom-side-card,.kingdom-business-card,.kingdom-agent-card{padding:28px;border-radius:28px}
 .kingdom-hero-copy{display:flex;flex-direction:column;justify-content:center;min-height:340px;background:linear-gradient(180deg, rgba(255,255,255,.025), rgba(255,255,255,.01));border:1px solid rgba(255,255,255,.06)}
 .kingdom-hero-copy h1{max-width:11ch;margin:18px 0 20px;font-size:clamp(3rem, 5vw, 5rem)}
 .kingdom-status-row{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-top:22px}
@@ -301,55 +301,67 @@ footer{padding:38px 0 48px;border-top:1px solid rgba(255,255,255,.06);color:var(
 .kingdom-section-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:22px;align-items:start}
 .kingdom-section-span-8{grid-column:span 8}
 .kingdom-section-span-7{grid-column:span 7}
+.kingdom-section-span-6{grid-column:span 6}
 .kingdom-section-span-5{grid-column:span 5}
 .kingdom-section-span-4{grid-column:span 4}
 .kingdom-stack{display:grid;gap:22px}
 .kingdom-section-head{margin-bottom:20px}
 .kingdom-section-head h2{max-width:12ch;margin-bottom:12px;font-size:clamp(2rem, 3.4vw, 3rem)}
 .kingdom-section-head .lead{max-width:50ch}
-.kingdom-business-grid,.kingdom-agent-grid{display:grid;gap:22px}
-.kingdom-business-card p,.kingdom-agent-card p,.kingdom-activity-item p{color:var(--muted)}
+.kingdom-business-card p,.kingdom-agent-card p,.kingdom-activity-item p,.kingdom-job-card p,.kingdom-offer-card p{color:var(--muted)}
 .kingdom-card-topline{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:16px;flex-wrap:wrap}
-.kingdom-rank,.kingdom-badge{display:inline-flex;align-items:center;justify-content:center;padding:8px 12px;border-radius:999px;border:1px solid rgba(255,255,255,.09);background:rgba(255,255,255,.04);font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;color:#ece2d0}
-.kingdom-business-card h3,.kingdom-agent-card h3,.kingdom-activity-item h3{max-width:18ch}
-.kingdom-meta-grid,.kingdom-list-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
-.kingdom-meta-grid{margin:20px 0}
-.kingdom-meta-grid strong{display:block;font-size:1rem}
+.kingdom-chip{display:inline-flex;align-items:center;justify-content:center;padding:8px 12px;border-radius:999px;border:1px solid rgba(255,255,255,.09);background:rgba(255,255,255,.04);font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;color:#ece2d0}
+.kingdom-chip.is-good{background:rgba(34,181,97,.12);border-color:rgba(90,243,155,.22);color:#d9ffe8}
+.kingdom-chip.is-warn{background:rgba(199,163,90,.12);border-color:rgba(199,163,90,.24);color:#f5e8c7}
+.kingdom-business-card h3,.kingdom-agent-card h3,.kingdom-activity-item h3,.kingdom-offer-card h3{max-width:20ch}
+.kingdom-meta-grid,.kingdom-list-columns,.kingdom-agent-meta-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.kingdom-meta-grid,.kingdom-agent-meta-grid{margin:20px 0}
+.kingdom-meta-grid strong,.kingdom-agent-meta-grid strong{display:block;font-size:1rem}
 .kingdom-list-block{margin-bottom:20px}
 .kingdom-list-columns ul,.kingdom-note-list{list-style:none}
 .kingdom-list-columns li,.kingdom-note-list li{position:relative;padding-left:16px;color:var(--muted);margin-bottom:10px}
 .kingdom-list-columns li::before,.kingdom-note-list li::before{content:"•";position:absolute;left:0;color:#fff}
 .kingdom-side-card{border-radius:28px;padding:28px}
-.kingdom-mini-metric-list{display:grid;gap:12px}
-.kingdom-mini-metric{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 16px;border-radius:18px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.07)}
-.kingdom-mini-metric span{color:var(--muted)}
+.kingdom-mini-metric,.kingdom-progress-card{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;padding:14px 16px;border-radius:18px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.07)}
+.kingdom-mini-metric span,.kingdom-check-item span{color:var(--muted)}
+.kingdom-mini-metric strong{max-width:20ch;text-align:right}
 .kingdom-session-box{padding:18px;border-radius:22px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.07);margin-bottom:18px}
 .kingdom-session-box strong{display:block;font-size:1.2rem;margin-bottom:6px}
-.kingdom-job-table{display:grid;gap:0;overflow:hidden}
-.kingdom-job-table-head,.kingdom-job-row{display:grid;grid-template-columns:2.1fr .9fr .9fr .9fr 1.2fr;gap:16px;padding:16px 0;align-items:start}
-.kingdom-job-table-head{color:#d7cec0;font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;border-bottom:1px solid rgba(255,255,255,.08)}
-.kingdom-job-row{border-bottom:1px solid rgba(255,255,255,.06)}
-.kingdom-job-row:last-child{border-bottom:none;padding-bottom:0}
-.kingdom-job-row strong{font-size:1rem;line-height:1.4}
-.kingdom-job-row span{color:var(--muted)}
+.kingdom-memory-summary,.kingdom-decision-list,.kingdom-checklist,.kingdom-offer-stack,.kingdom-lane-stack{display:grid;gap:12px}
+.kingdom-check-item{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:start;padding:14px 16px;border-radius:18px;background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.06)}
+.kingdom-check-item strong{display:block;margin-bottom:4px}
+.kingdom-check-item span{display:block;font-size:.88rem;word-break:break-word}
+.kingdom-flagship-card{background:radial-gradient(circle at top right, rgba(179,32,32,.14), transparent 28%),linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.012))}
+.kingdom-business-status-grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(280px,.9fr);gap:22px}
+.kingdom-business-main,.kingdom-business-side,.kingdom-detail-card{min-width:0}
+.kingdom-progress-strip{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:8px}
+.kingdom-progress-card{flex-direction:column;align-items:flex-start}
+.kingdom-nested-grid{gap:22px}
+.kingdom-offer-card{padding:18px;border-radius:20px;background:rgba(255,255,255,.025);border:1px solid rgba(255,255,255,.07)}
+.kingdom-lane-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.kingdom-lane-card{padding:22px;border-radius:28px;min-width:0}
+.kingdom-job-card{padding:18px;border-radius:20px;background:rgba(255,255,255,.02)}
+.kingdom-job-card h4{font-size:1.08rem;line-height:1.3;margin-bottom:8px}
+.kingdom-job-meta{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:14px 0;color:#ddd3c3;font-size:.9rem}
+.kingdom-job-output strong{display:block;font-size:.98rem;line-height:1.4}
 .kingdom-activity-list{display:grid;gap:14px}
 .kingdom-activity-item{display:grid;grid-template-columns:76px 1fr;gap:18px;padding:22px;border-radius:24px}
 .kingdom-activity-time{font-size:.9rem;color:#ebe0cd;letter-spacing:.14em;text-transform:uppercase}
 .kingdom-activity-type{display:inline-flex;padding:6px 10px;border-radius:999px;background:rgba(179,32,32,.16);border:1px solid rgba(211,48,48,.18);color:#ffdede;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;margin-bottom:12px}
 .kingdom-agent-shell{padding:28px;border-radius:34px;border:1px solid rgba(255,255,255,.08);background:linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.012));box-shadow:var(--shadow), inset 0 1px 0 rgba(255,255,255,.03)}
-.kingdom-agent-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.kingdom-agent-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
 .kingdom-agent-card{border-radius:28px}
 .kingdom-kpi-strip{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
 .kingdom-kpi-strip span{display:inline-flex;padding:8px 12px;border-radius:999px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);font-size:.82rem;color:#e8dfd2}
 
 @media (max-width: 1100px){
-  .trust-grid,.split-section,.lead-magnet,.mini-visuals,.offer-grid,.review-wrap,.faq-grid,.steps,.modal,.kingdom-hero-grid,.kingdom-agent-grid{grid-template-columns:1fr}
+  .trust-grid,.split-section,.lead-magnet,.mini-visuals,.offer-grid,.review-wrap,.faq-grid,.steps,.modal,.kingdom-hero-grid,.kingdom-agent-grid,.kingdom-lane-grid,.kingdom-business-status-grid,.kingdom-progress-strip{grid-template-columns:1fr}
   .split-section.reverse .text-col,.split-section.reverse .media-col{order:initial}
   .review-panel{min-height:unset}
   .floating-card{margin:-44px auto 0}
   .issue-grid{grid-template-columns:1fr}
   .modal-visual{min-height:260px;border-right:none;border-bottom:1px solid rgba(255,255,255,.08)}
-  .kingdom-section-span-8,.kingdom-section-span-7,.kingdom-section-span-5,.kingdom-section-span-4{grid-column:1/-1}
+  .kingdom-section-span-8,.kingdom-section-span-7,.kingdom-section-span-6,.kingdom-section-span-5,.kingdom-section-span-4{grid-column:1/-1}
 }
 
 @media (max-width: 860px){
@@ -361,16 +373,17 @@ footer{padding:38px 0 48px;border-top:1px solid rgba(255,255,255,.06);color:var(
   .hero{min-height:auto;padding:144px 0 118px}
   h1{font-size:clamp(2.9rem, 13vw, 4.8rem)}
   h2{font-size:clamp(2.05rem, 10vw, 3.2rem)}
-  .hero-actions,.red-cta-bar,.form-actions,.kingdom-topbar,.kingdom-meta-grid,.kingdom-list-columns{flex-direction:column;align-items:stretch}
+  .hero-actions,.red-cta-bar,.form-actions,.kingdom-topbar{flex-direction:column;align-items:stretch}
+  .kingdom-meta-grid,.kingdom-list-columns,.kingdom-agent-meta-grid{grid-template-columns:1fr}
   .btn{width:100%}
-  .panel,.offer-card,.review-list,.floating-card,.guide-panel,.guide-side,.faq-item,.final-panel,.modal-copy,.review-slide,.step,.issue-pill,.kingdom-hero-shell,.kingdom-side-card,.kingdom-business-card,.kingdom-agent-card,.kingdom-job-table,.kingdom-command-card,.kingdom-hero-copy{padding:24px}
+  .panel,.offer-card,.review-list,.floating-card,.guide-panel,.guide-side,.faq-item,.final-panel,.modal-copy,.review-slide,.step,.issue-pill,.kingdom-hero-shell,.kingdom-side-card,.kingdom-business-card,.kingdom-agent-card,.kingdom-command-card,.kingdom-hero-copy,.kingdom-lane-card,.kingdom-job-card{padding:24px}
   .modal-copy h3{font-size:1.8rem}
   .review-nav{padding:0 24px 24px}
   .mobile-cta{display:block;position:fixed;left:0;right:0;bottom:0;z-index:85;padding:12px 16px calc(12px + env(safe-area-inset-bottom));background:rgba(6,6,6,.92);backdrop-filter:blur(16px);border-top:1px solid rgba(255,255,255,.10)}
   body{padding-bottom:86px}
-  .kingdom-job-table-head{display:none}
-  .kingdom-job-row,.kingdom-activity-item{grid-template-columns:1fr}
-  .kingdom-job-row{gap:8px;padding:16px 0}
+  .kingdom-activity-item,.kingdom-check-item{grid-template-columns:1fr}
+  .kingdom-job-meta,.kingdom-mini-metric{flex-direction:column;align-items:flex-start}
+  .kingdom-mini-metric strong{text-align:left;max-width:none}
   .kingdom-command-grid{grid-template-columns:1fr}
 }
 
