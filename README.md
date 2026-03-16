@@ -24,3 +24,13 @@ npm start
 ## Notes
 
 Current form submissions are captured by `/api/contact` and written locally in development. For production notifications, connect a provider like Resend and add the necessary environment variables in Vercel.
+
+## Image generation
+
+After adding `OPENAI_API_KEY` to `.env.local`, run:
+
+```bash
+npm run generate:images
+```
+
+Images will be written to `public/images/`.

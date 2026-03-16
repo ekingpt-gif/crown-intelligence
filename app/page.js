@@ -170,8 +170,8 @@ export default function Page() {
         <section className="section">
           <div className="container split-section">
             <div className="media-col">
-              <div className="visual-tall">
-                <div className="visual-core king" />
+              <div className="visual-tall visual-photo-frame">
+                <div className="visual-photo chess-photo" />
                 <span className="image-kicker">Chess King</span>
               </div>
             </div>
@@ -204,8 +204,8 @@ export default function Page() {
               </div>
             </div>
             <div className="media-col">
-              <div className="visual-wide">
-                <div className="visual-core stone" />
+              <div className="visual-wide visual-photo-frame">
+                <div className="visual-photo bust-photo" />
                 <span className="image-kicker">Marble Bust</span>
               </div>
             </div>
@@ -257,8 +257,8 @@ export default function Page() {
 
         <section className="section tighter-top">
           <div className="container mini-visuals">
-            <div className="visual-square"><div className="visual-core smoke" /><div className="visual-core stone soft-layer" /><span className="image-kicker">Dust / Smoke</span></div>
-            <div className="visual-square"><div className="visual-core arch" /><div className="visual-core symbols" /><span className="image-kicker">Structure / Strategy</span></div>
+            <div className="visual-square visual-photo-frame"><div className="visual-photo smoke-photo" /><span className="image-kicker">Dust / Smoke</span></div>
+            <div className="visual-square visual-photo-frame"><div className="visual-photo architecture-photo" /><span className="image-kicker">Structure / Strategy</span></div>
           </div>
 
           <div className="floating-card">
@@ -335,7 +335,7 @@ export default function Page() {
               </div>
             </div>
             <div className="media-col">
-              <div className="visual-wide"><div className="visual-core stone" /><div className="visual-core smoke" /><span className="image-kicker">Power / Abstraction</span></div>
+              <div className="visual-wide visual-photo-frame"><div className="visual-photo abstraction-photo" /><span className="image-kicker">Power / Abstraction</span></div>
             </div>
           </div>
         </section>
@@ -409,7 +409,7 @@ export default function Page() {
       <div className={`modal-overlay ${modalOpen ? 'active' : ''}`} aria-hidden={!modalOpen} onClick={(e) => e.target === e.currentTarget && closeModal()}>
         <div className="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
           <button className="modal-close" aria-label="Close" onClick={closeModal}>✕</button>
-          <div className="modal-visual"><div className="visual-core king" /></div>
+          <div className="modal-visual visual-photo-frame"><div className="visual-photo chess-photo" /></div>
           <div className="modal-copy">
             <span className="eyebrow">OpenClaw Guide</span>
             <h3 id="modalTitle">Before you book, understand what OpenClaw can actually do.</h3>
