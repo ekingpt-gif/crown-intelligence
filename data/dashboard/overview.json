@@ -1,0 +1,29 @@
+{
+  "title": "Information Kingdom",
+  "subtitle": "Crown Intelligence internal operating system",
+  "status": "Strategic build phase",
+  "asOf": "2026-03-16",
+  "northStar": "Turn Crown Intelligence into a premium AI systems business that compounds leverage through strategic execution, content, automation, and founder-grade operating discipline.",
+  "metrics": [
+    {
+      "label": "Active businesses",
+      "value": "01",
+      "change": "+1 foundation"
+    },
+    {
+      "label": "Open jobs",
+      "value": "07",
+      "change": "Prioritised"
+    },
+    {
+      "label": "Agent readiness",
+      "value": "82%",
+      "change": "4 core agents online"
+    },
+    {
+      "label": "Signal velocity",
+      "value": "14/wk",
+      "change": "+6 strong leads target"
+    }
+  ]
+}

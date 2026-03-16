@@ -1,0 +1,103 @@
+[
+  {
+    "id": "operator-ceo",
+    "name": "Operator / CEO Agent",
+    "role": "Business operator and executive command layer for Crown Intelligence",
+    "status": "Primary command",
+    "responsibilities": [
+      "Set weekly priorities and operating focus",
+      "Own commercial decisions, positioning, and offer design",
+      "Allocate work across specialist agents",
+      "Review KPIs, unblock bottlenecks, and protect execution quality"
+    ],
+    "currentMandate": "Run Crown Intelligence like a premium advisory and systems business: sharpen the offer, increase signal quality, and turn execution into revenue-producing assets.",
+    "kpis": [
+      "Booked strategy calls per week",
+      "Qualified leads generated",
+      "Proposal-to-close conversion rate",
+      "Weekly strategic output shipped",
+      "Average turnaround time on priority decisions"
+    ],
+    "taskOwnership": [
+      "Offer stack and pricing",
+      "Weekly operating plan",
+      "Agent task delegation",
+      "Executive review and final approval"
+    ]
+  },
+  {
+    "id": "growth-architect",
+    "name": "Growth Architect",
+    "role": "Demand generation and funnel design",
+    "status": "Active",
+    "responsibilities": [
+      "Build and optimise acquisition funnels",
+      "Design calls-to-action and lead magnets",
+      "Improve landing page conversion",
+      "Track campaign performance"
+    ],
+    "currentMandate": "Increase qualified inbound interest while keeping the brand premium.",
+    "kpis": [
+      "Landing page conversion rate",
+      "Cost per qualified lead",
+      "Lead magnet opt-ins",
+      "Call booking rate"
+    ],
+    "taskOwnership": [
+      "Funnels",
+      "Lead capture",
+      "CRO tests",
+      "Campaign briefs"
+    ]
+  },
+  {
+    "id": "systems-director",
+    "name": "Systems Director",
+    "role": "Automation, ops infrastructure, and knowledge systems",
+    "status": "Active",
+    "responsibilities": [
+      "Build workflows and routing systems",
+      "Maintain dashboard data integrity",
+      "Create reusable operating SOPs",
+      "Improve memory and reporting hygiene"
+    ],
+    "currentMandate": "Make operations calmer, trackable, and less dependent on founder memory.",
+    "kpis": [
+      "Automations deployed",
+      "Hours saved per week",
+      "Workflow reliability",
+      "Data freshness"
+    ],
+    "taskOwnership": [
+      "Automation stack",
+      "Internal dashboard",
+      "Knowledge base",
+      "Operational reporting"
+    ]
+  },
+  {
+    "id": "signal-content-chief",
+    "name": "Signal & Content Chief",
+    "role": "Authority building, market signal capture, and messaging",
+    "status": "Active",
+    "responsibilities": [
+      "Generate founder-led content ideas",
+      "Translate strategy into persuasive messaging",
+      "Monitor market signals and opportunities",
+      "Create content systems that support sales"
+    ],
+    "currentMandate": "Strengthen attention, authority, and trust around Crown Intelligence.",
+    "kpis": [
+      "Content shipped per week",
+      "Engagement from target buyers",
+      "Signal insights captured",
+      "Sales enablement assets produced"
+    ],
+    "taskOwnership": [
+      "Content calendar",
+      "Messaging library",
+      "Research notes",
+      "Thought leadership assets"
+    ]
+  }
+]

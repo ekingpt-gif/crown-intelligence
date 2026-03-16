@@ -1,0 +1,13 @@
+{
+  "sessionStatus": "Focused build session",
+  "lastSync": "2026-03-16 18:10 AEST",
+  "workspace": {
+    "memoryFile": "/Users/eking/.openclaw/workspace/MEMORY.md",
+    "memoryFolder": "/Users/eking/.openclaw/workspace/memory"
+  },
+  "notes": [
+    "Long-term memory scaffold is intentionally minimal.",
+    "Daily session notes can accumulate in memory/YYYY-MM-DD.md later.",
+    "Dashboard data is stored locally in JSON for easy iteration."
+  ]
+}

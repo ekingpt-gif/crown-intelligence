@@ -1,0 +1,58 @@
+[
+  {
+    "id": "job-01",
+    "title": "Refine premium offer stack",
+    "domain": "Strategy",
+    "priority": "Critical",
+    "status": "In progress",
+    "owner": "Operator / CEO Agent"
+  },
+  {
+    "id": "job-02",
+    "title": "Publish direct-response landing assets",
+    "domain": "Growth",
+    "priority": "High",
+    "status": "Queued",
+    "owner": "Growth Architect"
+  },
+  {
+    "id": "job-03",
+    "title": "Install inbound lead capture and routing",
+    "domain": "Systems",
+    "priority": "High",
+    "status": "In progress",
+    "owner": "Systems Director"
+  },
+  {
+    "id": "job-04",
+    "title": "Build outbound prospecting cadence",
+    "domain": "Pipeline",
+    "priority": "High",
+    "status": "Queued",
+    "owner": "Revenue Commander"
+  },
+  {
+    "id": "job-05",
+    "title": "Create founder authority content calendar",
+    "domain": "Content",
+    "priority": "Medium",
+    "status": "Ready",
+    "owner": "Signal & Content Chief"
+  },
+  {
+    "id": "job-06",
+    "title": "Define KPI review rhythm",
+    "domain": "Operations",
+    "priority": "Medium",
+    "status": "Ready",
+    "owner": "Operator / CEO Agent"
+  },
+  {
+    "id": "job-07",
+    "title": "Stand up memory discipline and session logging",
+    "domain": "Memory",
+    "priority": "Medium",
+    "status": "Started",
+    "owner": "Systems Director"
+  }
+]
